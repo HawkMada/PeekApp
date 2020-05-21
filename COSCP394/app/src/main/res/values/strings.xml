@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Peek</string>
+    <string name="title_buy">Buy</string>
+    <string name="title_rent">Rent</string>
+    <string name="title_sell">Sell</string>
+    <string name="minlotsize">"Min Lot Size (m\u00B2)"</string>
+    <string name="lotsize">"Lot Size (m\u00B2)"</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="large_text1">
+        "*** PRETEND THAT THE IMAGES ABOVE ARE VARIOUS UNIQUE IMAGES OF THE SAME HOME *** \n \n "
+        "Filler real-estate text: This desirable 3 bedroom brick bungalow in a quiet neighbourhood is located steps from excellent schools, major highway and all amenities. "
+        "With its large, bright living room, spacious master bedroom and two additional main floor bedrooms, it may just be perfect for your family. "
+    </string>
+    <string name="large_text2">
+        "And having a second kitchen, large family room and 2nd full bathroom in the basement could make it even more desirable for when the grandparents come to visit, or for the teenage kids. "
+        "Relax on summer days on your large deck with pergola overlooking your private, fenced in backyard. The detached single car garage makes for a great work shop and with a driveway capable of holding up to 4 cars, theres plenty of room for parking for the whole family. "
+        "Make this home your dream home. A must see! Steps from Brock University Bus Stop."
+    </string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_buy"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_buy" />
+
+    <item
+        android:id="@+id/navigation_rent"
+        android:icon="@drawable/rent_icon"
+        android:title="@string/title_rent" />
+
+    <item
+        android:id="@+id/navigation_sell"
+        android:icon="@drawable/sell_icon"
+        android:title="@string/title_sell" />
+
+</menu>

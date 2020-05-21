@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuyFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buy_filterbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Filter Listings" />
+
+        <LinearLayout
+            android:id="@+id/nav_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buy_filterbutton"
+            android:weightSum="6">
+
+            <SearchView
+                android:id="@+id/searchbar_buy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buy_filterbutton"
+                android:layout_weight="5"
+                android:iconifiedByDefault="false"
+                android:queryHint="Location" />
+
+            <ImageButton
+                android:id="@+id/mapmode"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="96dp"
+                android:layout_height="48dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:contentDescription="Map Mode"
+                android:src="@drawable/ic_map_black_48dp" />
+
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/listview_buy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nav_search"></ListView>
+
+    </RelativeLayout>
+
+</FrameLayout>
